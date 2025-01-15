@@ -8,7 +8,11 @@ public class BurritoBudget {
 		int burritosEatenWeek3 = 19; //don't judge me
 		int burritosEatenWeek4 = 1;
 		
+<<<<<<< HEAD
 		double totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
+=======
+		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
+>>>>>>> branch 'master' of https://github.com/CSE131SP25/studio-0-steelepowellbao-studio0.git
 		double averageWeeklyBurritos = totalBurritos / 4;
 		
 		double burritoPrice = 7.50;

@@ -9,7 +9,11 @@ public class MilageReport {
 		
 		int totalMiles = car1miles + car2miles + car3miles;
 		double milesPerGallon = 24.5;
+<<<<<<< HEAD
 		double totalGallons = totalMiles / milesPerGallon;
+=======
+		double totalGallons = totalMiles * milesPerGallon;
+>>>>>>> branch 'master' of https://github.com/CSE131SP25/studio-0-steelepowellbao-studio0.git
 		double pricePerGallon = 3.05;
 		double totalPrice = totalGallons * pricePerGallon;
 		
